@@ -1,100 +1,124 @@
 {
-    "version": "1.0.3",
-    "onboarding": {
-          "steps": []
-    },
-    "tooltips": [],
-    "articles": [
-          {
-                  "id": "tag-products-for-easier-management",
-                  "title": "Tag Products for Easier Management",
-                  "category": "Getting Started",
-                  "tags": [
-                            "product tags",
-                            "tagging",
-                            "product report",
-                            "bulk actions",
-                            "media plans",
-                            "reports"
-                  ],
-                  "last_updated": "2025-10-16",
-                  "sections": [
-                            {
-                                        "heading": "Overview",
-                                        "body": "Add internal tags to your products to group, filter, and manage campaigns more efficiently."
-                            },
-                            {
-                                        "heading": "What Are Product Tags?",
-                                        "body": "Tags are internal labels that help you organize and segment products within Trellis. They do not sync to Amazon and are only used for internal workflows."
-                            },
-                            {
-                                        "heading": "Ways to Use Tags",
-                                        "body": "Use tags to group Top Performers or Seasonal Products, identify New Launches or Clearance Items, track High Margin or Low Inventory products, and build targeted Media Plans or custom reports."
-                            },
-                            {
-                                        "heading": "How to Add Tags",
-                                        "body": "1. Go to Reports -> Product Report, or any page where products can be selected.\n2. Use filters or search to find the products you want to tag.\n3. Select one or multiple products using the checkboxes.\n4. Click Bulk Actions -> Add Tag.\n5. Enter a new tag name or select from existing tags.\n6. Click Apply."
-                            },
-                            {
-                                        "heading": "Tip",
-                                        "body": "You can apply multiple tags to a single product. Tags are searchable in reporting and campaign filters, which makes them useful for organizing work across teams."
-                            },
-                            {
-                                        "heading": "Example Use Cases",
-                                        "body": "Seasonal planning: Q4 Products, Holiday Gift Guide\nProfit-based grouping: High Margin, Low Margin\nProduct lifecycle: New Launch, Discontinued Soon\nAd targeting: Priority SKUs, Brand Awareness Set"
-                            }
-                  ]
-          },
-          {
-                  "id": "advanced-advertising-features-in-trellis",
-                  "title": "Advanced Advertising Features in Trellis",
-                  "category": "Advertising",
-                  "tags": [
-                            "advertising",
-                            "advanced settings",
-                            "media plans",
-                            "optimization strategies",
-                            "discovery",
-                            "harvesting",
-                            "bid ranges",
-                            "rule programs",
-                            "dayparting",
-                            "placement multipliers"
-                  ],
-                  "last_updated": "2026-03-19",
-                  "sections": [
-                            {
-                                        "heading": "Overview",
-                                        "body": "Explore Trellis's advanced ad configuration options to fine-tune performance, customize optimization behavior, and control how your campaigns learn, harvest, and scale."
-                            },
-                            {
-                                        "heading": "What Advanced Settings Help You Do",
-                                        "body": "Trellis offers a range of advanced settings that give experienced advertisers greater control over how their campaigns operate. These tools help you refine how keywords and ASINs are discovered and harvested, adjust bid behavior to balance growth and profitability, and customize campaign automation, pacing, and placement strategies."
-                            },
-                            {
-                                        "heading": "Where to Find Advanced Settings",
-                                        "body": "You can access all of these options under Configuration -> Campaign Settings -> Advanced Settings within any Media Plan."
-                            },
-                            {
-                                        "heading": "Advanced Features Reference",
-                                        "body": "Discovery & Harvesting: Enables Trellis to analyze target data to discover new keywords and ASINs. Includes Auto Campaigns, Keyword Harvesting, and ASIN Harvesting settings. Use when you want Trellis to expand targeting automatically and learn which keywords drive conversions.\n\nOptimization Strategies: Choose how Trellis manages bids within your ACOS range. Options include ROAS Boost, GrowthMax, Product Launch, and Only Rules. Use to control whether campaigns focus on profitability, growth, or manual rule logic.\n\nMatch Types & Tunneling: Defines how closely your ads match customer search queries using Exact, Phrase, and Broad. Trellis uses tunneling to automatically shift spend from Broad to Phrase to Exact as performance improves. Use to balance reach and efficiency while letting Trellis focus spend on high-performing keywords.\n\nBid Ranges: Set minimum and maximum bids to ensure bids remain within the range that you prefer. Use to control how the system adjusts your bids up and down.\n\nRule Programs: Set up Rule Programs to customize the behavior of bids and campaign changes. Use to control how the system is bidding based on your custom rulesets.\n\nManage Dayparting within Trellis: Set up hourly bidding multipliers based on daily and hourly campaign data. Use to customize when you show up for customers throughout the day.\n\nAuto Harvesting and Negation Rules: Customize thresholds for harvesting new keywords and automatically remove poor-performing search terms or ASINs to optimize efficiency. Use to tighten or loosen when new keywords are added based on your data volume.\n\nAmazon Options and Placement Multipliers: Choose between Amazon's Up/Down, Fixed, or Down Only bidding logic and update placement multipliers. Use to fine-tune how Amazon modifies bids during auctions."
-                            },
-                            {
-                                        "heading": "Best Practices",
-                                        "body": "Start simple, then layer in advanced settings: Trellis performs best when it can gather baseline data before multiple advanced rules interact.\n\nReview results weekly: Many advanced features, like harvesting or budget split, evolve over 1 to 2 weeks as data accumulates.\n\nKeep ACOS ranges realistic: Overly tight ranges can restrict learning or limit Discovery efficiency.\n\nDocument changes: Note configuration updates in annotations on Trellis to track impact."
-                            },
-                            {
-                                        "heading": "Other Access Paths",
-                                        "body": "You can also find advanced features under Advertising Dashboard -> Select Campaign -> Configuration -> Advanced Settings. Alternatively, you can view and edit multiple campaigns at once using Reports -> Ad Report -> Bulk Actions."
-                            }
-                  ]
-          }
-    ],
-    "page_articles": [
-          {
-                  "url_pattern": "/user/dashboard",
-                  "article_ids": ["tag-products-for-easier-management"]
-          }
-    ],
-    "page_guides": []
+      "version": "1.0.5",
+      "onboarding": {
+              "steps": [
+                        {
+                                    "title": "Main Dashboard Graph",
+                                    "body": "This is the main Trellis Dashboard Graph — you'll see this same graph on many of the reports in Trellis. Hover over any date to see the variety of metrics available.",
+                                    "element_selector": "[data-highcharts-chart=\"0\"]",
+                                    "position": "bottom",
+                                    "target_url_pattern": "/user/dashboard"
+                        },
+                        {
+                                    "title": "Date Selector",
+                                    "body": "You can adjust the date range of this graph by using the Date Selector. Pick any date range you'd like, and compare to any other dates you'd like. Try clicking it now!",
+                                    "element_selector": "button[class*=\"panda-c_royalPurple\"][aria-expanded]",
+                                    "position": "bottom",
+                                    "target_url_pattern": "/user/dashboard",
+                                    "interactive": true,
+                                    "advance_on_click": true
+                        },
+                        {
+                                    "title": "Customize Your Metrics",
+                                    "body": "If you would like to change any of the metrics on the Dashboard, that can be found by clicking these three buttons. From there you can add any metrics you'd like!",
+                                    "element_selector": "button[class*=\"panda-color-palette_fuchsia\"][class*=\"panda-fs_large\"]",
+                                    "position": "left",
+                                    "target_url_pattern": "/user/dashboard"
+                        }
+              ]
+      },
+      "tooltips": [],
+      "articles": [
+              {
+                        "id": "tag-products-for-easier-management",
+                        "title": "Tag Products for Easier Management",
+                        "category": "Getting Started",
+                        "tags": [
+                                    "product tags",
+                                    "tagging",
+                                    "product report",
+                                    "bulk actions",
+                                    "media plans",
+                                    "reports"
+                        ],
+                        "last_updated": "2025-10-16",
+                        "sections": [
+                                    {
+                                                  "heading": "Overview",
+                                                  "body": "Add internal tags to your products to group, filter, and manage campaigns more efficiently."
+                                    },
+                                    {
+                                                  "heading": "What Are Product Tags?",
+                                                  "body": "Tags are internal labels that help you organize and segment products within Trellis. They do not sync to Amazon and are only used for internal workflows."
+                                    },
+                                    {
+                                                  "heading": "Ways to Use Tags",
+                                                  "body": "Use tags to group Top Performers or Seasonal Products, identify New Launches or Clearance Items, track High Margin or Low Inventory products, and build targeted Media Plans or custom reports."
+                                    },
+                                    {
+                                                  "heading": "How to Add Tags",
+                                                  "body": "1. Go to Reports -> Product Report, or any page where products can be selected.\n2. Use filters or search to find the products you want to tag.\n3. Select one or multiple products using the checkboxes.\n4. Click Bulk Actions -> Add Tag.\n5. Enter a new tag name or select from existing tags.\n6. Click Apply."
+                                    },
+                                    {
+                                                  "heading": "Tip",
+                                                  "body": "You can apply multiple tags to a single product. Tags are searchable in reporting and campaign filters, which makes them useful for organizing work across teams."
+                                    },
+                                    {
+                                                  "heading": "Example Use Cases",
+                                                  "body": "Seasonal planning: Q4 Products, Holiday Gift Guide\nProfit-based grouping: High Margin, Low Margin\nProduct lifecycle: New Launch, Discontinued Soon\nAd targeting: Priority SKUs, Brand Awareness Set"
+                                    }
+                        ]
+              },
+              {
+                        "id": "advanced-advertising-features-in-trellis",
+                        "title": "Advanced Advertising Features in Trellis",
+                        "category": "Advertising",
+                        "tags": [
+                                    "advertising",
+                                    "advanced settings",
+                                    "media plans",
+                                    "optimization strategies",
+                                    "discovery",
+                                    "harvesting",
+                                    "bid ranges",
+                                    "rule programs",
+                                    "dayparting",
+                                    "placement multipliers"
+                        ],
+                        "last_updated": "2026-03-19",
+                        "sections": [
+                                    {
+                                                  "heading": "Overview",
+                                                  "body": "Explore Trellis's advanced ad configuration options to fine-tune performance, customize optimization behavior, and control how your campaigns learn, harvest, and scale."
+                                    },
+                                    {
+                                                  "heading": "What Advanced Settings Help You Do",
+                                                  "body": "Trellis offers a range of advanced settings that give experienced advertisers greater control over how their campaigns operate. These tools help you refine how keywords and ASINs are discovered and harvested, adjust bid behavior to balance growth and profitability, and customize campaign automation, pacing, and placement strategies."
+                                    },
+                                    {
+                                                  "heading": "Where to Find Advanced Settings",
+                                                  "body": "You can access all of these options under Configuration -> Campaign Settings -> Advanced Settings within any Media Plan."
+                                    },
+                                    {
+                                                  "heading": "Advanced Features Reference",
+                                                  "body": "Discovery & Harvesting: Enables Trellis to analyze target data to discover new keywords and ASINs. Includes Auto Campaigns, Keyword Harvesting, and ASIN Harvesting settings. Use when you want Trellis to expand targeting automatically and learn which keywords drive conversions.\n\nOptimization Strategies: Choose how Trellis manages bids within your ACOS range. Options include ROAS Boost, GrowthMax, Product Launch, and Only Rules. Use to control whether campaigns focus on profitability, growth, or manual rule logic.\n\nMatch Types & Tunneling: Defines how closely your ads match customer search queries using Exact, Phrase, and Broad. Trellis uses tunneling to automatically shift spend from Broad to Phrase to Exact as performance improves. Use to balance reach and efficiency while letting Trellis focus spend on high-performing keywords.\n\nBid Ranges: Set minimum and maximum bids to ensure bids remain within the range that you prefer. Use to control how the system adjusts your bids up and down.\n\nRule Programs: Set up Rule Programs to customize the behavior of bids and campaign changes. Use to control how the system is bidding based on your custom rulesets.\n\nManage Dayparting within Trellis: Set up hourly bidding multipliers based on daily and hourly campaign data. Use to customize when you show up for customers throughout the day.\n\nAuto Harvesting and Negation Rules: Customize thresholds for harvesting new keywords and automatically remove poor-performing search terms or ASINs to optimize efficiency. Use to tighten or loosen when new keywords are added based on your data volume.\n\nAmazon Options and Placement Multipliers: Choose between Amazon's Up/Down, Fixed, or Down Only bidding logic and update placement multipliers. Use to fine-tune how Amazon modifies bids during auctions."
+                                    },
+                                    {
+                                                  "heading": "Best Practices",
+                                                  "body": "Start simple, then layer in advanced settings: Trellis performs best when it can gather baseline data before multiple advanced rules interact.\n\nReview results weekly: Many advanced features, like harvesting or budget split, evolve over 1 to 2 weeks as data accumulates.\n\nKeep ACOS ranges realistic: Overly tight ranges can restrict learning or limit Discovery efficiency.\n\nDocument changes: Note configuration updates in annotations on Trellis to track impact."
+                                    },
+                                    {
+                                                  "heading": "Other Access Paths",
+                                                  "body": "You can also find advanced features under Advertising Dashboard -> Select Campaign -> Configuration -> Advanced Settings. Alternatively, you can view and edit multiple campaigns at once using Reports -> Ad Report -> Bulk Actions."
+                                    }
+                        ]
+              }
+      ],
+      "page_articles": [
+              {
+                        "url_pattern": "/user/dashboard",
+                        "article_ids": ["tag-products-for-easier-management"]
+              }
+      ],
+      "page_guides": []
 }
