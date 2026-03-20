@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "onboarding": {
+    "steps": []
+  },
+  "tooltips": [],
+  "articles": [
+    {
+      "id": "what-is-a-product-category",
+      "title": "What is a Product Category?",
+      "category": "Getting Started",
+      "tags": [
+        "product category",
+        "categorization",
+        "products",
+        "media plans",
+        "pricing plans",
+        "dynamic pricing",
+        "advertising"
+      ],
+      "last_updated": "2026-03-19",
+      "sections": [
+        {
+          "heading": "What is a Product Category?",
+          "body": "Product categories are a way to group similar items so you can analyze pricing and ad performance more effectively. These categories help you compare trends, set pricing strategies, and manage campaigns based on product type."
+        },
+        {
+          "heading": "Important Note",
+          "body": "The categories you create in Trellis are only used within Trellis and will not transfer to Amazon Seller Central. They are simply a tool for organizing data and making smarter pricing and advertising decisions within Trellis."
+        },
+        {
+          "heading": "Why Categorization Matters",
+          "body": "Before creating Media Plans or Pricing Plans, it is important to make sure your imported products are organized for easier management and faster decision-making."
+        },
+        {
+          "heading": "Benefits for Advertising",
+          "body": "Budget Allocation: Helps you spend your advertising budget wisely by assigning more funds to the product categories that matter most to your business.\n\nAudience Targeting: Ensures your ads reach the right people by tailoring messages based on different product categories and customer interests.\n\nPerformance Analysis: Lets you see how well your ads are working for each product category so you can make improvements and get better results.\n\nScalability: Makes it easier to organize and manage a large number of ads efficiently, especially as your business grows."
+        },
+        {
+          "heading": "Benefits for Dynamic Pricing",
+          "body": "Optimized Pricing Strategies: Different types of products may need different pricing approaches. For example, high-end products might use premium pricing, while budget items stay competitive with lower prices.\n\nCompetitive Positioning: Helps you set prices that stay competitive in the market by keeping up with trends and what competitors are charging."
+        },
+        {
+          "heading": "How to Categorize Products",
+          "body": "1. Go to Product -> Product & Categories.\n2. In the Search Product field, enter the desired ASIN or SKU. If searching for multiple ASINs or SKUs, use the Advanced search feature and enter all desired ASINs or SKUs.\n3. Select the desired products using the checkmarks on the left. You can select multiple products if needed.\n4. Click Move To.\n5. Select the desired category from the dropdown and click Move.\n6. If a new category needs to be created, you can do this from the category selection box while enrolling by clicking the plus button on the top right, or by clicking the plus button next to the listed Categories."
+        },
+        {
+          "heading": "Tip",
+          "body": "You can use the Import Products button in the top left to upload a CSV file that categorizes your products in bulk."
+        },
+        {
+          "heading": "How to Categorize Media Plans",
+          "body": "1. Go to the main Advertising Dashboard, or the Ad Report in the Reports section, and scroll to the bottom of the page to Media Plans. Expand all Media Plans.\n2. Using the checkbox selectors to the left of your campaigns, select the campaigns you want to categorize. You can select one or more.\n3. Click Bulk Actions on the right side of the screen.\n4. Click Update Plan Categories to open the categorization options.\n5. From the dropdown, select the ad category you want to assign and click Confirm."
+        },
+        {
+          "heading": "Note for Media Plan Categories",
+          "body": "To create a new category for Media Plans, follow the same new-category creation process described in step 6 of How to Categorize Products."
+        }
+      ]
+    }
+  ],
+  "page_guides": []
+}
