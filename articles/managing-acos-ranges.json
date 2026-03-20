@@ -1,0 +1,29 @@
+{
+  "id": "managing-acos-ranges",
+  "title": "Managing ACOS Ranges and Optimization Settings",
+  "category": "Advertising",
+  "tags": ["ACOS", "optimization", "bid strategy", "ROAS Boost", "GrowthMax"],
+  "last_updated": "2026-03-20",
+  "sections": [
+    {
+      "heading": "Overview",
+      "body": "Your ACOS Range and Optimization Settings guide how Trellis manages bids and spend for each campaign. You can view and edit these settings from the Configuration section, either for a single campaign or in bulk across multiple campaigns using the Ad or Category Reports."
+    },
+    {
+      "heading": "Setting Realistic ACOS Ranges",
+      "body": "Your ACOS (Advertising Cost of Sales) range defines how aggressively Trellis can bid while maintaining profitability or growth. A low ACOS range tells Trellis to bid conservatively, which is great for profitability but may restrict visibility. A high ACOS range allows more aggressive bidding, which is ideal for growth but can increase ad spend. Best practices: Check your historic ACOS using the Ad Report to see your average over the past 30-60 days. Factor in your conversion rate and CPC - if your CPC and conversion rate make a 10% ACOS unrealistic, set a higher range (e.g., 20-30%) to allow Trellis to compete effectively. Set a reasonable width: a 10-20% range gives Trellis flexibility to adapt to performance trends. Avoid setting ACOS too low as this limits how often Trellis can bid and campaigns may underspend or lose placements. Example: If your average CPC is $1.50 and your conversion rate is 10%, a 15% ACOS is more achievable than 5%, since each sale costs roughly $15 in clicks."
+    },
+    {
+      "heading": "Updating ACOS Ranges and Optimization Strategy",
+      "body": "You can update ACOS ranges and optimization settings in several places. Configuration Section: Adjust ACOS ranges or change the optimization strategy for individual campaigns. Ad Report: Use bulk actions to update ACOS ranges and strategies across multiple campaigns at once. Category View: Apply updates to all campaigns within a category for consistent targeting and optimization. Tip: Use bulk updates when standardizing ACOS ranges across similar product lines such as Premium SKUs or Seasonal products."
+    },
+    {
+      "heading": "Optimization Strategies",
+      "body": "ROAS Boost: Bids conservatively near the lower end of your ACOS range, best for profit-focused campaigns. GrowthMax: Targets the upper end of your ACOS range for volume, best for scaling or market-share goals. Product Launch: Spends more aggressively at the start to drive awareness, best for new product launches. Only Rules: Uses your custom rules for full manual control, best for advanced advertisers. These settings can be changed individually or in bulk, and Trellis will automatically adjust bids according to the new configuration."
+    },
+    {
+      "heading": "Tips for Better ACOS Management",
+      "body": "Review ACOS monthly to keep campaigns aligned with performance trends. Compare ACOS to conversion rate to ensure your targets are achievable. Use consistent ranges by category to maintain predictable performance across product groups. Start wider then refine to allow Trellis to collect enough data before narrowing your range."
+    }
+  ]
+}
