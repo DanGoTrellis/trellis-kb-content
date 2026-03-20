@@ -1,0 +1,25 @@
+{
+  "id": "enroll-ntm-campaigns",
+  "title": "How to Enroll Non-Trellis Managed (NTM) Media Campaigns to Trellis",
+  "category": "Advertising",
+  "tags": ["NTM", "campaigns", "import", "enroll", "media plans"],
+  "last_updated": "2026-03-20",
+  "sections": [
+    {
+      "heading": "Definitions",
+      "body": "NTM = A Non-Trellis Managed ad campaign (created before Trellis). NTM Enrolled = A Non-Trellis Managed ad that has had its data (bid ranges, budget, ACOS ranges, etc.) imported to the Trellis solution. NTM Bids Accepted = A Non-Trellis Managed ad that is now having its bids and other configured settings managed by the Trellis solution."
+    },
+    {
+      "heading": "Step 1: Import Keywords and Targets",
+      "body": "Select the ads you want Trellis to manage going forward. You can use a filter to quickly pull up the non-managed ads by selecting NTM Ad Status = Non Managed. Click on Bulk Actions > Import Keywords and Targets, then click Confirm. Note: If you have Sponsored Display (SD) media campaigns selected, please be aware that Amazon does not allow SD ads to be managed by a third party."
+    },
+    {
+      "heading": "Step 2: Enable Trellis Bid Management",
+      "body": "Once you have enrolled the media campaigns, you need to have the system accept the bids in order for Trellis to begin managing them. Select the ads you have just enrolled and click Bulk Actions > Manage Imported Media Plans, then click Confirm. Once you have completed this step, the system will begin to manage the bids for your active Media Campaigns."
+    },
+    {
+      "heading": "Best Practices",
+      "body": "Import Previous Ads: To start optimizing your campaigns, import your previous ads as soon as possible. Trellis captures real-time data, and after 7-10 days it gathers enough insights to manage bids effectively. Review Budgets: Once ads are imported, review your budget to ensure it aligns with your goals. If your budget is high but underutilized, Trellis may increase bids to optimize spending, which could impact ACOS. Be mindful of campaigns with many keywords as Trellis will test them all, which may lead to inefficient spending if budgets are not set appropriately."
+    }
+  ]
+}
