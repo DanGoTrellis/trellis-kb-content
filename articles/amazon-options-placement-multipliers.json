@@ -1,0 +1,29 @@
+{
+  "id": "amazon-options-placement-multipliers",
+  "title": "Amazon Options and Placement Multipliers",
+  "category": "Advertising",
+  "tags": ["placement multipliers", "bid strategy", "Amazon options", "Top of Search", "ROAS"],
+  "last_updated": "2026-03-20",
+  "sections": [
+    {
+      "heading": "Overview",
+      "body": "Amazon Options help you fine-tune where and how your ads compete during auctions. Trellis integrates with Amazon's native bidding strategies and placement modifiers to maximize visibility while maintaining efficiency. You'll find these options in Advanced Settings, Amazon Options."
+    },
+    {
+      "heading": "Algorithmically Manage Placement Multipliers",
+      "body": "When enabled, Trellis automatically manages your placement adjustments (Top of Search, Product Pages, Rest of Search, etc.), optimizing for the placements delivering the best ROAS and conversions without manual tuning. Turn this on when you would like Trellis to balance placement visibility dynamically. Turn it off when you want to set specific percentage adjustments yourself for testing or fixed spend allocation."
+    },
+    {
+      "heading": "Bid Strategy",
+      "body": "Defines how Amazon adjusts your bid during live auctions. Up/Down: Increases your bid for high-conversion opportunities and lowers it for weaker ones - best for broad scaling and aggressive strategies. Down Only (Recommended): Decreases bids when conversion likelihood is low, but never raises them - ideal for efficiency-focused and conservative strategies. Fixed: Keeps your bid constant and ignores Amazon's conversion predictions - best for manual testing, stable campaigns, or exact control."
+    },
+    {
+      "heading": "Placement Multipliers",
+      "body": "Placement modifiers let you increase bids for specific ad positions as additive percentages on top of your base bid. Top of Search (%): Boosts bids for the most visible ad slots at the top of Amazon search results (e.g., 50% means a $1 base bid becomes $1.50). Product Pages (%): Targets competitor or complementary ASIN detail pages (e.g., 20% means a $1 base bid becomes $1.20). Rest of Search (%): Covers middle or bottom search placements at lower cost (e.g., 30% means a $1 base bid becomes $1.30). Amazon Business (%): Increases bids for B2B customers and bulk buyers (e.g., 25% means a $2 bid becomes $2.50)."
+    },
+    {
+      "heading": "Best Practices",
+      "body": "Use Algorithmically Manage Placement Multipliers if you want Trellis to continuously test and reallocate spend across placements. Use manual percentages if you are confident in where your products perform best. Keep Top of Search boosts moderate (30-60%) to maintain cost balance. Product Page targeting is ideal for conquesting or cross-selling. For new product visibility, use an Up/Down strategy with a Top of Search 50% boost. For margin protection, use a Down Only strategy with Trellis-managed placements. Amazon's placement data updates daily, and Trellis automatically integrates this with your campaign metrics to make smarter placement decisions over time."
+    }
+  ]
+}
