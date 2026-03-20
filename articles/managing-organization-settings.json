@@ -1,0 +1,29 @@
+{
+  "id": "managing-organization-settings",
+  "title": "Managing Organization Settings",
+  "category": "Getting Started",
+  "tags": ["organization", "settings", "team", "billing", "reporting"],
+  "last_updated": "2026-03-20",
+  "sections": [
+    {
+      "heading": "Overview",
+      "body": "Set up your workspace by inviting team members, managing billing access, and configuring organization-wide settings like reporting preferences and optimization targets."
+    },
+    {
+      "heading": "Invite and Manage Team Members",
+      "body": "Navigate to Settings, Invite Users. Enter your teammate's email address and click Invite User. Your teammate will receive an email to join your Trellis workspace. Once accepted, their status changes from Pending to Active. Note: Only Admins can manage users and roles. Tip: Agencies managing multiple brands can assign each brand a separate organization for cleaner reporting and billing separation."
+    },
+    {
+      "heading": "Manage Billing Access",
+      "body": "Go to Settings, Billing to review your current subscription plan and payment method. Click Manage Billing to update payment details or download past invoices. Only Admin users can view or edit billing information. Marketers and Analysts will not see this tab."
+    },
+    {
+      "heading": "Reporting Preferences: ROAS vs ACoS",
+      "body": "Choose your preferred reporting metric for ad performance. ROAS (Return on Ad Spend) shows how much revenue is generated for every dollar spent. ACoS (Advertising Cost of Sale) shows the percentage of revenue spent on ads. Go to Settings, Preferences, then select Default Reporting Metric and choose either ROAS or ACoS."
+    },
+    {
+      "heading": "Reporting Preferences: SKU vs ASIN",
+      "body": "Define how Trellis groups product performance in reports. ASIN Level is ideal for single listings or product-specific ad tracking. SKU Level is best for variations or multi-pack listings. Go to Settings, Organization, Reporting Preferences, then select Default Reporting View and choose ASIN or SKU. Trellis automatically maps SKUs to ASINs - changing this view only affects reporting display, not campaign structure."
+    }
+  ]
+}
