@@ -1,0 +1,45 @@
+{
+  "id": "trellis-algorithm-optimization",
+  "title": "Understanding How Trellis Algorithms Optimize Your Amazon Ads",
+  "category": "Advertising",
+  "tags": ["algorithm", "optimization", "ACOS", "bidding", "GrowthMax", "Product Launch", "ROAS Boost"],
+  "last_updated": "2026-03-20",
+  "sections": [
+    {
+      "heading": "How Trellis Thinks About Optimization",
+      "body": "Every target has a relationship between bid and visibility. As bids rise, you win more auctions and impressions, but at a higher cost. Conversion rate typically stays stable in the short term, so your ACoS depends mostly on where your bid sits on that curve. Trellis tracks this relationship for every target and moves bids up or down to keep performance within your defined ACoS range."
+    },
+    {
+      "heading": "Why ACoS Ranges Matter",
+      "body": "Your ACoS Range defines the acceptable efficiency window for your campaigns, for example 25-35%. The upper end allows the system to explore more visibility and drive additional volume. The lower end enforces efficiency, ensuring bids pull back when costs rise. These ranges give Trellis the flexibility to balance growth and profitability dynamically. You set the business goal; Trellis decides how to navigate within that window each day."
+    },
+    {
+      "heading": "Product Launch Strategy",
+      "body": "Built for new ASINs and categories that need visibility fast. Trellis increases bid responsiveness and operates near the top of your ACoS range, accepting slightly higher costs to accelerate data collection and sales velocity. Use it when you are introducing new products, need faster keyword and placement data, or when short-term exposure is more valuable than short-term efficiency."
+    },
+    {
+      "heading": "GrowthMax Strategy",
+      "body": "Focused on stable, compounding growth. GrowthMax typically works near the higher end of your ACoS range, driving consistent traffic while maintaining control. It uses longer-term data to make measured, low-volatility adjustments, scaling volume without major swings in spend or ACoS. Use it when your campaigns already perform efficiently, you want to scale profitably without losing control, or predictability and consistency are priorities."
+    },
+    {
+      "heading": "ROAS Boost Strategy",
+      "body": "Designed for margin protection and cost efficiency. ROAS Boost operates near the lower end of your ACoS range, tightening bids when costs rise and relaxing only when conversion data justifies it. Use it when profitability is more important than volume, or when you want to optimize your return before scaling spend again."
+    },
+    {
+      "heading": "Placement Max Strategy",
+      "body": "Concentrates spend where performance is strongest, such as Top of Search. Trellis automatically adjusts placement multipliers to capture high-intent traffic, while ensuring overall CPC stays within your ACoS or ROAS guardrails. Use it when you have identified high-value placements and want to maximize visibility without overspending."
+    },
+    {
+      "heading": "How the Algorithm Adapts",
+      "body": "Example: A GrowthMax campaign with an ACoS range of 25-35%. If the system observes ACoS trending down toward 25%, it will increase bids slightly to capture more traffic and scale. If ACoS climbs toward 35%, it will lower bids to preserve profitability. In a Product Launch campaign, Trellis might intentionally sit near 35% or higher to win more placements and data early. Once the campaign matures, switching to GrowthMax or ROAS Boost helps maintain stability and optimize spend."
+    },
+    {
+      "heading": "Smart Campaign Structure",
+      "body": "Trellis campaigns are built to eliminate internal competition and keep learnings clean. Match-Type Tunneling: Exact, Phrase, and Broad keywords live in separate ad groups with negatives to direct search traffic correctly. Auto-to-Manual Harvesting: Auto campaigns discover new opportunities and high-performing terms are promoted to Manual and negated in Auto. Product vs. Keyword Targeting: Managed separately so each bid aligns with intent and performance. This structure ensures Trellis can optimize at the right level without wasted overlap or mixed signals."
+    },
+    {
+      "heading": "The Result",
+      "body": "Trellis does not just raise or lower bids - it intelligently positions them on each auction curve to achieve your ACoS and ROAS goals. By combining automation, structure, and strategy, Trellis keeps your campaigns performing efficiently while adapting in real time to competition, pricing, and shopper behavior. You choose your range and strategy. Trellis does the rest, turning complex Amazon auctions into predictable, profitable growth."
+    }
+  ]
+}
