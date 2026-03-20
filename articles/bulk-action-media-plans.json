@@ -1,0 +1,37 @@
+{
+  "id": "bulk-action-media-plans",
+  "title": "How to Bulk Action Changes to Media Plans",
+  "category": "Advertising",
+  "tags": ["bulk actions", "media plans", "campaigns", "ACOS", "budget"],
+  "last_updated": "2026-03-20",
+  "sections": [
+    {
+      "heading": "Overview",
+      "body": "Quickly apply updates like ACOS ranges, budgets, rules, or targeting changes across multiple campaigns or media plans in one go. Bulk actions help you manage large ad portfolios efficiently, saving time and ensuring consistency across your account."
+    },
+    {
+      "heading": "Step 1: Access Bulk Actions",
+      "body": "You can access bulk actions from either the Advertising Report or a Category View within the Advertising Dashboard. Tip: Use filters first to narrow down which campaigns you want to update. Filters are powerful for segmenting by performance, tag, strategy, or status so you only adjust the relevant media plans."
+    },
+    {
+      "heading": "Step 2: Select the Media Plans",
+      "body": "Use the checkboxes next to each campaign or media plan to select them. Once selected, click the Bulk Actions button to open the dropdown."
+    },
+    {
+      "heading": "Step 3: Available Bulk Action Options",
+      "body": "Pause Media Plan: Pauses active campaigns immediately, stopping ad spend until re-enabled. Enable Media Plan: Reactivates paused campaigns and resumes ad delivery. Update Optimal ACOS Range Low: Adjusts the lower end of your ACOS range. Update Optimal ACOS Range High: Updates the upper end of your ACOS range. Update Budget: Changes the daily campaign budget for selected media plans. Update Plan Category: Moves selected ads to a different product category. Add/Remove Media Plan Tags: Adds or removes tags for easier filtering and bulk management. Schedule Budget Updates: Lets you set future-dated budget changes. Cancel Scheduled Budget Updates: Cancels any previously scheduled budget updates. Update Dayparting: Adjusts what times of day your ads have bidding multipliers applied. Update Bidding Rules: Applies or replaces rule programs to selected campaigns. Update Budget Rules: Adds automated logic that controls how budgets scale based on performance. Update Weekday Parting: Adjusts which days of the week your ads receive more or less budget. Update Bidding Algorithm: Switches campaigns between optimization modes (e.g., ROAS Boost, Growth Max, Product Launch). Update Bidding Modifiers: Changes placement multipliers in bulk. Import Keywords and Targets: Imports campaigns into Trellis for bid suggestions (only needed for campaigns created outside of Trellis). Manage Imported Media Plans: Enables Trellis to take control of campaigns previously imported from Amazon. Unmanage Imported Media Plans: Removes Trellis optimization from imported campaigns while leaving them live in Amazon."
+    },
+    {
+      "heading": "Step 4: Apply Changes",
+      "body": "After choosing your bulk action and setting the new values, click Apply Updates. Trellis will apply the changes across all selected campaigns. Changes sync to Amazon within minutes and appear in your reports shortly after."
+    },
+    {
+      "heading": "Step 5: Review Updates",
+      "body": "Return to your Advertising Report or Category View to verify that updates were successfully applied. You can confirm by checking new ACOS range values, updated budgets, and adjusted strategy or rule assignments."
+    },
+    {
+      "heading": "Best Practices",
+      "body": "Use filters first to find groupings of ads to action in bulk. Group campaigns by tag or category for easier management. Review budget and ACOS limits before applying to ensure they align with performance goals."
+    }
+  ]
+}
