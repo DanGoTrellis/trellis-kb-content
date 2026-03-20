@@ -41,3 +41,75 @@
       {
         "title": "Welcome to Your Ad",
         "body": "This is your Individual Ad page — your command center for a single campaign. Here you can view performance, manage targets, and configure every aspect of how this ad runs. Let's take a quick tour of what's available.",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      },
+      {
+        "title": "Products",
+        "body": "The Products tab shows you all of the products included in this ad campaign. You can see each product's performance metrics, review which ASINs are actively being advertised, and manage your product selection.",
+        "element_selector": "a[data-rr-ui-event-key=\"products\"]",
+        "position": "bottom",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      },
+      {
+        "title": "Keyword Targets",
+        "body": "The Keyword Targets tab shows all of the keywords and negative keywords in this campaign, along with their individual bids and performance metrics. This is where Trellis manages and optimizes your keyword targeting.",
+        "element_selector": "a[data-rr-ui-event-key=\"keywords\"]",
+        "position": "bottom",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      },
+      {
+        "title": "Product Targets",
+        "body": "The Product Targets tab shows your ASIN and category targets, along with any negative targets. Use this to see where Trellis is targeting your ads at the product level and how each target is performing.",
+        "element_selector": "a[data-rr-ui-event-key=\"targets\"]",
+        "position": "bottom",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      },
+      {
+        "title": "Placement Report",
+        "body": "The Placement Report shows you exactly where your ad is appearing — top of search, product pages, rest of search — and the individual metrics for each placement. Great for understanding where your spend is going.",
+        "element_selector": "a[data-rr-ui-event-key=\"campaignPlacements\"]",
+        "position": "bottom",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      },
+      {
+        "title": "Search Term Report",
+        "body": "The Search Term Report shows the actual customer search queries that triggered this campaign, along with their metrics and trends. This is one of the most powerful views for understanding what is and isn't working.",
+        "element_selector": "a[data-rr-ui-event-key=\"searchTermReport\"]",
+        "position": "bottom",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      },
+      {
+        "title": "Configuration",
+        "body": "The Configuration tab is where all of your campaign settings live — budget, ACOS targets, optimization strategy, bid ranges, and much more. This tab has its own dedicated tour. Head there and launch the Page Tour from the Trellis Help panel to get a full walkthrough!",
+        "element_selector": "a[data-rr-ui-event-key=\"configuration\"]",
+        "position": "bottom",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      }
+    ]
+  },
+  "tooltips": [],
+  "page_articles": [
+    {
+      "url_pattern": "/user/dashboard",
+      "article_ids": ["tag-products-for-easier-management"]
+    }
+  ],
+  "page_guides": [],
+  "tours": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard Tour",
+      "description": "A walkthrough of the main Dashboard graph, date selector, and metric customization.",
+      "url_pattern": "/user/dashboard",
+      "navigate_url": "/user/dashboard"
+    },
+    {
+      "id": "individual-ad",
+      "title": "Individual Ad Page Tour",
+      "description": "Explore the products, keywords, targets, placements, and configuration tabs for a single ad.",
+      "url_pattern": "/user/advertising/dashboard/ads/*",
+      "navigate_url": null,
+      "navigate_hint": "Open any individual ad to start this tour."
+    }
+  ]
+}
