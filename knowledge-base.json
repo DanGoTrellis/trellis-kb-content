@@ -1,10 +1,10 @@
 {
   "version": "1.0.11",
-"article_ids": [
-  "tag-products-for-easier-management",
-  "advanced-advertising-features-in-trellis",
-  "trellis-categorization"
-],
+  "article_ids": [
+    "tag-products-for-easier-management",
+    "advanced-advertising-features-in-trellis",
+    "what-is-a-product-category"
+  ],
   "onboarding": {
     "steps": [
       {
@@ -84,7 +84,9 @@
   "page_articles": [
     {
       "url_pattern": "/user/dashboard",
-      "article_ids": ["tag-products-for-easier-management"]
+      "article_ids": [
+        "tag-products-for-easier-management"
+      ]
     }
   ],
   "page_guides": [],
