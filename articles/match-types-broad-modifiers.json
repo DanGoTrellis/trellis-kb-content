@@ -1,0 +1,29 @@
+{
+  "id": "match-types-broad-modifiers",
+  "title": "Match Types and Broad Modifiers",
+  "category": "Advertising",
+  "tags": ["match types", "broad match", "exact match", "phrase match", "keywords", "tunneling"],
+  "last_updated": "2026-03-20",
+  "sections": [
+    {
+      "heading": "Overview",
+      "body": "Match Types determine how Trellis interprets customer search queries in Amazon's auction. Choosing the right mix helps balance reach and relevance, while Trellis's Tunneling system ensures your campaigns stay organized and data remains clean. You'll find these options in Advanced Settings, Match Type and Broad Modifier."
+    },
+    {
+      "heading": "How Trellis Uses Match Type Tunneling",
+      "body": "Trellis automatically applies a structure called Tunneling, separating each match type into its own ad group and negating the appropriate match types in other ad groups. This ensures no overlap between match types (e.g., Broad traffic won't compete with Exact), and enables faster learning since each match type's performance is evaluated independently. In practice, Trellis funnels performance towards Exact: Broad Match captures new search terms, high-performing terms are promoted to Phrase Match for testing, and proven winners are locked into Exact Match campaigns for precise control. As keywords are promoted, Trellis automatically negates the match types in Phrase and/or Broad to ensure no internal competition."
+    },
+    {
+      "heading": "Match Type Options",
+      "body": "Exact Match: Ads only show when a shopper's search matches your keyword exactly (or very close variants like plural forms). Example - Keyword: running shoes shows ads for running shoe but not best running shoes. Phrase Match: Ads show when the shopper's query includes your keyword phrase in order, even with words before or after. Example - Keyword: running shoes shows ads for best running shoes for women. Broad Match: Ads show for related terms, synonyms, or variations of your keyword, giving wider exposure but can be less targeted. Example - Keyword: running shoes may show ads for jogging sneakers or athletic footwear."
+    },
+    {
+      "heading": "Broad Match Modifier",
+      "body": "Broad Match Modifier (BMM) gives you more control over Broad Match targeting. When enabled, Trellis ensures that all words in your keyword appear in the shopper's query, in any order, while still allowing some flexibility. Example - Keyword: women's hats. Broad Match might trigger ladies caps, whereas Broad Match Modifier will only trigger hats for women or buy women's hats, keeping results more relevant. BMM offers the best of both worlds: flexibility like Broad Match with the control of Phrase Match."
+    },
+    {
+      "heading": "Best Practices",
+      "body": "Use Broad or Phrase Match early for keyword discovery. Use Exact Match for high-performing, conversion-focused terms. Let Trellis's Tunneling structure handle promotion between match types - no manual duplication needed. Regularly review your Search Term Report to see what's being harvested and promoted. Combine with Auto Campaigns for continuous keyword learning."
+    }
+  ]
+}
