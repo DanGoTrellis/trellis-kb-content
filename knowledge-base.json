@@ -1,5 +1,5 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -256,6 +256,71 @@
         "interactive": true,
         "target_url_pattern": "/user/report/advertisement",
         "tour_id": "ad-report"
+      },
+      {
+        "title": "Welcome to the Product Report",
+        "body": "This is your full-catalog performance view. Unlike the Ad Report which covers only advertised campaigns, the Product Report shows every product — combining organic and paid data side by side. Use it to understand true profitability, spot under-advertised products, and organize your catalog. Let's walk through the key features.",
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
+      },
+      {
+        "title": "Date Range & Period Comparison",
+        "body": "Set the reporting window here. All metrics, the chart, and table data update instantly. The comparison mode shows performance vs. a prior period — the green and red indicators on each metric card tell you at a glance whether things are trending up or down.",
+        "element_selector": "button[class*=\"panda-c_royalPurple\"]",
+        "position": "left",
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
+      },
+      {
+        "title": "Key Performance Metrics",
+        "body": "The six metric cards summarize your catalog's performance for the selected period: Ad Sales, Ad Spend, Cost (your total COGS), ROAS, ACOS, and Clicks. Pay attention to Total ACOS — it measures ad spend against all sales including organic, giving you a truer picture of advertising efficiency than Ad ACOS alone.",
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
+      },
+      {
+        "title": "Performance Overview Chart",
+        "body": "This chart plots your key metrics day-by-day across the selected period. Hover any data point to see exact figures for that date. Toggle metrics on and off using the legend below the chart to focus on trends that matter most — like isolating ACOS trajectory or comparing Ad Sales to Ad Spend over time.",
+        "element_selector": "[data-highcharts-chart]",
+        "position": "top",
+        "padding": 20,
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
+      },
+      {
+        "title": "Group By — Segment Your View",
+        "body": "This is unique to the Product Report. The Group By dropdown lets you switch between three views: By Product (all variants rolled up under one listing), By ASIN (each individual variant as its own row), and By Parent ASIN (grouped by parent). Use this to drill from a high-level product view down to the specific variations driving — or dragging — your performance.",
+        "element_selector": "div[class*=\"panda-flex_1\"]:has(select)",
+        "position": "top",
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
+      },
+      {
+        "title": "Table Controls & Filtering",
+        "body": "Use the search bar to find products by name or ASIN. The gear icon lets you customize which columns are visible. Click '+ Add Filter' to narrow the table by any metric or attribute — filter by tag, enrollment status, ACOS range, sales threshold, and more. Combine multiple filters to build exactly the view you need.",
+        "element_selector": "div[class*=\"panda-flex-wrap_wrap\"][class*=\"panda-gap_xsmall\"]",
+        "position": "top",
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
+      },
+      {
+        "title": "Selecting Products for Bulk Actions",
+        "body": "The header checkbox selects all visible products at once — individual row checkboxes let you pick specific ones. Once at least one product is selected, the Bulk Actions button in the top-right activates. We'll use it in the next step.",
+        "element_selector": "th button[role=\"checkbox\"]",
+        "position": "right",
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
+      },
+      {
+        "title": "Bulk Actions — Tag, Organize & Enroll",
+        "body": "With products selected, Bulk Actions lets you make changes across your entire selection at once. You can: Add or Remove Tags (to group products into sets you can filter and report on), Enroll products in NTM (New to Marketplace) campaigns to expand reach, and manage product Categorization. Tags are one of the most powerful organizational tools in Trellis — use them to label seasonal items, high-margin SKUs, new launches, and more.",
+        "element_selector": "div[class*=\"panda-gap_8px\"][class*=\"panda-jc_end\"] button",
+        "position": "left",
+        "pre_click_selectors": [
+          "th button[role=\"checkbox\"]"
+        ],
+        "interactive": true,
+        "target_url_pattern": "/user/report/product",
+        "tour_id": "product-report"
       }
     ]
   },
@@ -299,6 +364,13 @@
       "description": "Explore the key features of the Ad Report: metric cards, the performance chart, smart filter tabs, table controls, and the Bulk Actions menu for managing campaigns at scale.",
       "url_pattern": "/user/report/advertisement",
       "navigate_url": "/user/report/advertisement"
+    },
+    {
+      "id": "product-report",
+      "title": "Product Report Tour",
+      "description": "Walk through the Product Report: metric cards, the performance chart, Group By segmentation, table controls, and Bulk Actions for tagging and organizing your products at scale.",
+      "url_pattern": "/user/report/product",
+      "navigate_url": "/user/report/product"
     }
   ]
 }
