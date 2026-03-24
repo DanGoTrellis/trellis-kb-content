@@ -1,5 +1,5 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -226,7 +226,7 @@
       {
         "title": "Smart Filter Tabs",
         "body": "These tabs instantly segment all your Media Plans by status. 'New' shows recently created campaigns. 'Trending Up' and 'Trending Down' flag recent momentum shifts. 'High ACOS', 'Low ACOS', and 'ACOS in Range' help you prioritize optimization work. 'Low Budget' catches campaigns that may soon pause. Each badge shows the live count.",
-        "element_selector": "div[role=\"radiogroup\"]",
+        "element_selector": "div[class*=\"panda-p_small\"] div[role=\"radiogroup\"]",
         "position": "bottom",
         "target_url_pattern": "/user/report/advertisement",
         "tour_id": "ad-report"
@@ -248,7 +248,7 @@
       {
         "title": "Bulk Actions — Manage at Scale",
         "body": "With campaigns selected, Bulk Actions lets you apply changes to all of them simultaneously. You can update: State (pause or enable), Performance Targets (ACOS range), Budget (including scheduling future updates), Categorization (tags and categories), Bidding (programs, algorithm, modifiers, strategy), Dayparting & Placement multipliers, and Automation settings — all in one operation across every selected campaign.",
-        "element_selector": "button[class*=\"panda-color-palette_fuchsia\"][class*=\"panda-tt_uppercase\"]",
+        "element_selector": "div[class*=\"panda-jc_space-between\"] > button[class*=\"panda-color-palette_fuchsia\"]",
         "position": "left",
         "pre_click_selectors": [
           "button[role=\"checkbox\"]"
