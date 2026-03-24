@@ -1,5 +1,5 @@
 {
-  "version": "1.0.16",
+  "version": "1.0.17",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -321,6 +321,60 @@
         "interactive": true,
         "target_url_pattern": "/user/report/product",
         "tour_id": "product-report"
+      },
+      {
+        "title": "Welcome to the Goals Dashboard",
+        "body": "This is where you set monthly performance targets — for Total Sales, Ad Spend, and TACOS — and track real-time pacing throughout the month. If you haven't configured goals yet, the Configuration tab is the place to start. Once goals are set, this page becomes your go-to for checking whether you're on track to hit your numbers.",
+        "target_url_pattern": "/user/goals",
+        "tour_id": "goals"
+      },
+      {
+        "title": "Three Views",
+        "body": "The page has three tabs: Details shows pacing charts and category breakdowns for the selected month. Overview shows the full year at a glance in a single table, so you can compare month-to-month targets and actuals. Configuration is where you enter your monthly targets.",
+        "element_selector": ".react-aria-TabList",
+        "position": "bottom",
+        "target_url_pattern": "/user/goals",
+        "tour_id": "goals"
+      },
+      {
+        "title": "Month Navigator",
+        "body": "Use the arrows to move between months. Clicking back lets you review pacing from prior months — helpful for spotting seasonal trends, auditing performance against historical goals, or comparing how this month is tracking vs the same month last year.",
+        "element_selector": "div[class*=\"panda-as_center\"]",
+        "position": "left",
+        "target_url_pattern": "/user/goals",
+        "tour_id": "goals"
+      },
+      {
+        "title": "Sales Goal Pacing",
+        "body": "The gauge shows your current pacing percentage — how your actual month-to-date sales compare to what you should have by this point in the month, given your goal. The line chart plots actual daily sales (solid line) against the expected trajectory (dashed). If the solid line is tracking below the dashed line, you may need to increase ad investment to close the gap before month-end.",
+        "element_selector": "h3[class*=\"panda-m_0\"]",
+        "position": "bottom",
+        "skip_if_element_missing": true,
+        "target_url_pattern": "/user/goals",
+        "tour_id": "goals"
+      },
+      {
+        "title": "Ad Spend Budget & TACOS",
+        "body": "Below the Sales chart are two more trackers. Ad Spend Budget shows whether you're over or under-pacing on spend for the month — useful for catching runaway spend or spotting under-investment. TACOS shows your total ad cost as a percentage of total sales vs your target efficiency. A color-coded bar in each section gives you an instant visual on where you stand.",
+        "target_url_pattern": "/user/goals",
+        "tour_id": "goals"
+      },
+      {
+        "title": "Category Goals",
+        "body": "At the bottom of the Details tab is a per-category breakdown. For each category, you can see actual Sales, Ad Spend, and TACOS alongside any category-level targets you've set. Click the pencil icon on any row to set or edit that category's goals. Click the expand arrow on a row to drill into the individual products within that category.",
+        "element_selector": "table",
+        "position": "top",
+        "skip_if_element_missing": true,
+        "target_url_pattern": "/user/goals",
+        "tour_id": "goals"
+      },
+      {
+        "title": "Configuration — Set Your Targets",
+        "body": "The Configuration tab is where you enter your monthly targets. For each month, fill in your Total Sales goal ($), TACoS target (%), and Ad Spend budget ($). The copy icon at the end of each row fills the same value into all subsequent months — handy for quickly setting a consistent annual target. Hit Submit when you're done to save.",
+        "element_selector": ".react-aria-Tab:nth-child(3)",
+        "position": "bottom",
+        "target_url_pattern": "/user/goals",
+        "tour_id": "goals"
       }
     ]
   },
@@ -371,6 +425,13 @@
       "description": "Walk through the Product Report: metric cards, the performance chart, Group By segmentation, table controls, and Bulk Actions for tagging and organizing your products at scale.",
       "url_pattern": "/user/report/product",
       "navigate_url": "/user/report/product"
+    },
+    {
+      "id": "goals",
+      "title": "Goals Dashboard Tour",
+      "description": "Learn how to set monthly Sales, Ad Spend, and TACOS targets, understand pacing charts, review the year overview, and configure goals for every month.",
+      "url_pattern": "/user/goals",
+      "navigate_url": "/user/goals"
     }
   ]
 }
