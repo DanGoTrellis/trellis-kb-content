@@ -1,5 +1,5 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -384,6 +384,24 @@
       "url_pattern": "/user/dashboard",
       "article_ids": [
         "tag-products-for-easier-management"
+      ]
+    },
+    {
+      "url_pattern": "/user/report/product",
+      "article_ids": [
+        "tag-products-for-easier-management"
+      ]
+    },
+    {
+      "url_pattern": "/user/report/advertisement",
+      "article_ids": [
+        "advanced-advertising-features-in-trellis"
+      ]
+    },
+    {
+      "url_pattern": "/user/advertising/*",
+      "article_ids": [
+        "advanced-advertising-features-in-trellis"
       ]
     }
   ],
