@@ -1,5 +1,5 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -20,7 +20,8 @@
         "element_selector": "[data-highcharts-chart=\"0\"]",
         "position": "bottom",
         "padding": 30,
-        "target_url_pattern": "/user/dashboard"
+        "target_url_pattern": "/user/dashboard",
+        "tour_id": "dashboard"
       },
       {
         "title": "Date Selector",
@@ -29,61 +30,70 @@
         "position": "left",
         "target_url_pattern": "/user/dashboard",
         "interactive": true,
-        "advance_on_click": true
+        "advance_on_click": true,
+        "tour_id": "dashboard"
       },
       {
         "title": "Customize Your Metrics",
         "body": "If you would like to change any of the metrics on the Dashboard, that can be found by clicking these three buttons. From there you can add any metrics you'd like!",
         "element_selector": "button[class*=\"panda-color-palette_fuchsia\"][class*=\"panda-fs_large\"]",
         "position": "bottom",
-        "target_url_pattern": "/user/dashboard"
+        "target_url_pattern": "/user/dashboard",
+        "tour_id": "dashboard"
       },
       {
         "title": "Welcome to Your Ad",
         "body": "This is your Individual Ad page — your command center for a single campaign. Here you can view performance, manage targets, and configure every aspect of how this ad runs. Let's take a quick tour of what's available.",
-        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "tour_id": "individual-ad"
       },
       {
         "title": "Products",
         "body": "The Products tab shows you all of the products included in this ad campaign. You can see each product's performance metrics, review which ASINs are actively being advertised, and manage your product selection.",
         "element_selector": "a[data-rr-ui-event-key=\"products\"]",
         "position": "bottom",
-        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "tour_id": "individual-ad"
       },
       {
         "title": "Keyword Targets",
         "body": "The Keyword Targets tab shows all of the keywords and negative keywords in this campaign, along with their individual bids and performance metrics. This is where Trellis manages and optimizes your keyword targeting.",
         "element_selector": "a[data-rr-ui-event-key=\"keywords\"]",
         "position": "bottom",
-        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "tour_id": "individual-ad"
       },
       {
         "title": "Product Targets",
         "body": "The Product Targets tab shows your ASIN and category targets, along with any negative targets. Use this to see where Trellis is targeting your ads at the product level and how each target is performing.",
         "element_selector": "a[data-rr-ui-event-key=\"targets\"]",
         "position": "bottom",
-        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "tour_id": "individual-ad"
       },
       {
         "title": "Placement Report",
         "body": "The Placement Report shows you exactly where your ad is appearing — top of search, product pages, rest of search — and the individual metrics for each placement. Great for understanding where your spend is going.",
         "element_selector": "a[data-rr-ui-event-key=\"campaignPlacements\"]",
         "position": "bottom",
-        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "tour_id": "individual-ad"
       },
       {
         "title": "Search Term Report",
         "body": "The Search Term Report shows the actual customer search queries that triggered this campaign, along with their metrics and trends. This is one of the most powerful views for understanding what is and isn't working.",
         "element_selector": "a[data-rr-ui-event-key=\"searchTermReport\"]",
         "position": "bottom",
-        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "tour_id": "individual-ad"
       },
       {
         "title": "Configuration",
         "body": "The Configuration tab is where all of your campaign settings live — budget, ACOS targets, optimization strategy, bid ranges, and much more. This tab has its own dedicated tour. Head there and launch the Page Tour from the Trellis Help panel to get a full walkthrough!",
         "element_selector": "a[data-rr-ui-event-key=\"configuration\"]",
         "position": "bottom",
-        "target_url_pattern": "/user/advertising/dashboard/ads/*"
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "tour_id": "individual-ad"
       },
       {
         "title": "Welcome to Configuration",
@@ -91,7 +101,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"mediaPlan\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Media Plan",
@@ -99,7 +110,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"mediaPlan\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Advanced Options",
@@ -107,7 +119,8 @@
         "element_selector": ".MuiAccordionSummary-root",
         "position": "top",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Notifications",
@@ -115,7 +128,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"notifications\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Rules",
@@ -123,7 +137,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"rules\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Harvesting Programs",
@@ -131,7 +146,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"harvestingRules\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Weekday Parting",
@@ -139,7 +155,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"seasonality\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Dayparting",
@@ -147,7 +164,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"day_parting\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Serving Hours",
@@ -155,7 +173,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"servingHours\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "Scheduled Updates",
@@ -163,7 +182,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"scheduledChanges\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       },
       {
         "title": "History",
@@ -171,7 +191,8 @@
         "element_selector": "a[data-rr-ui-event-key=\"changeLog\"]",
         "position": "right",
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
-        "skip_if_element_missing": true
+        "skip_if_element_missing": true,
+        "tour_id": "configuration-tab"
       }
     ]
   },
