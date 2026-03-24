@@ -1,5 +1,5 @@
 {
-  "version": "1.0.18",
+  "version": "1.0.19",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -395,13 +395,19 @@
     {
       "url_pattern": "/user/report/advertisement",
       "article_ids": [
-        "advanced-advertising-features-in-trellis"
+        "advanced-advertising-features-in-trellis",
+        "managing-acos-ranges",
+        "bulk-action-media-plans",
+        "amazon-options-placement-multipliers"
       ]
     },
     {
       "url_pattern": "/user/advertising/*",
       "article_ids": [
-        "advanced-advertising-features-in-trellis"
+        "advanced-advertising-features-in-trellis",
+        "managing-acos-ranges",
+        "amazon-options-placement-multipliers",
+        "bulk-action-media-plans"
       ]
     }
   ],
