@@ -1,5 +1,5 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -193,6 +193,69 @@
         "target_url_pattern": "/user/advertising/dashboard/ads/*",
         "skip_if_element_missing": true,
         "tour_id": "configuration-tab"
+      },
+      {
+        "title": "Welcome to the Advertisement Report",
+        "body": "This is your master view of all Media Plans. From here you can monitor performance across every campaign, use smart filters to surface what needs attention, and take action on many campaigns at once with Bulk Actions. Let's walk through the key features.",
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
+      },
+      {
+        "title": "Date Range & Period Comparison",
+        "body": "Set the reporting period here. All metrics, charts, and table data update instantly to reflect your chosen range. The comparison option shows performance vs. a prior period — the green and red indicators on each metric tell you whether things are improving or declining.",
+        "element_selector": "button[class*=\"panda-c_royalPurple\"]",
+        "position": "left",
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
+      },
+      {
+        "title": "Key Performance Summary",
+        "body": "The six metric cards at the top show your totals for the selected period: Ad Sales, Ad Spend, ROAS, ACOS, Clicks, and Impressions. Each card includes a comparison to the prior period so you can quickly gauge whether performance is trending in the right direction.",
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
+      },
+      {
+        "title": "Performance Overview Chart",
+        "body": "This chart plots your key metrics day-by-day over the selected period. Hover any data point to see exact numbers for that date. Use the legend below the chart to toggle which metrics are visible — helpful for isolating trends like ACOS or Ad Spend over time.",
+        "element_selector": "[data-highcharts-chart]",
+        "position": "top",
+        "padding": 20,
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
+      },
+      {
+        "title": "Smart Filter Tabs",
+        "body": "These tabs instantly segment all your Media Plans by status. 'New' shows recently created campaigns. 'Trending Up' and 'Trending Down' flag recent momentum shifts. 'High ACOS', 'Low ACOS', and 'ACOS in Range' help you prioritize optimization work. 'Low Budget' catches campaigns that may soon pause. Each badge shows the live count.",
+        "element_selector": "div[role=\"radiogroup\"]",
+        "position": "bottom",
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
+      },
+      {
+        "title": "Table Controls",
+        "body": "Use the search bar to find specific campaigns by name. The gear icon lets you customize which columns are visible. Click '+ Add Filter' to create custom conditions — filter by ACOS range, spend level, state, or any other metric to build exactly the view you need.",
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
+      },
+      {
+        "title": "Selecting Campaigns for Bulk Actions",
+        "body": "The header checkbox selects all visible campaigns at once — individual row checkboxes let you pick specific ones. Once at least one row is selected, the Bulk Actions button in the top-right becomes active. We'll use it in the next step.",
+        "element_selector": "button[role=\"checkbox\"]",
+        "position": "right",
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
+      },
+      {
+        "title": "Bulk Actions — Manage at Scale",
+        "body": "With campaigns selected, Bulk Actions lets you apply changes to all of them simultaneously. You can update: State (pause or enable), Performance Targets (ACOS range), Budget (including scheduling future updates), Categorization (tags and categories), Bidding (programs, algorithm, modifiers, strategy), Dayparting & Placement multipliers, and Automation settings — all in one operation across every selected campaign.",
+        "element_selector": "button[class*=\"panda-color-palette_fuchsia\"][class*=\"panda-tt_uppercase\"]",
+        "position": "left",
+        "pre_click_selectors": [
+          "button[role=\"checkbox\"]"
+        ],
+        "interactive": true,
+        "target_url_pattern": "/user/report/advertisement",
+        "tour_id": "ad-report"
       }
     ]
   },
@@ -229,6 +292,13 @@
       "url_pattern": "/user/advertising/dashboard/ads/*",
       "navigate_url": null,
       "navigate_hint": "Open any individual ad and click the Configuration tab to start this tour."
+    },
+    {
+      "id": "ad-report",
+      "title": "Advertisement Report Tour",
+      "description": "Explore the key features of the Ad Report: metric cards, the performance chart, smart filter tabs, table controls, and the Bulk Actions menu for managing campaigns at scale.",
+      "url_pattern": "/user/report/advertisement",
+      "navigate_url": "/user/report/advertisement"
     }
   ]
 }
