@@ -1,5 +1,5 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "article_ids": [
     "tag-products-for-easier-management",
     "advanced-advertising-features-in-trellis",
@@ -84,6 +84,94 @@
         "element_selector": "a[data-rr-ui-event-key=\"configuration\"]",
         "position": "bottom",
         "target_url_pattern": "/user/advertising/dashboard/ads/*"
+      },
+      {
+        "title": "Welcome to Configuration",
+        "body": "You're now in the Configuration tab — your control center for every aspect of how this campaign operates. The left sidebar is your navigation menu. Let's walk through each section.",
+        "element_selector": "a[data-rr-ui-event-key=\"mediaPlan\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Media Plan",
+        "body": "The Media Plan section is the main settings panel for your campaign. Here you define your campaign title, optimization strategy, ACOS range targets, daily budget, which products are included, and your targeting setup. This is where most of your day-to-day configuration lives.",
+        "element_selector": "a[data-rr-ui-event-key=\"mediaPlan\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Advanced Options",
+        "body": "Within the Media Plan section, the Advanced Options accordion reveals powerful controls: Discovery & Harvesting, Optimization Strategy, Match Types, Bid Ranges, Amazon bidding options, and more. These give you fine-grained control over how Trellis manages your campaign.",
+        "element_selector": ".MuiAccordionSummary-root",
+        "position": "top",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Notifications",
+        "body": "The Notifications section lets you set up performance alerts for this campaign. Configure triggers for events like ACOS exceeding a threshold or spend going over a limit — so you and your team are proactively notified when something needs attention.",
+        "element_selector": "a[data-rr-ui-event-key=\"notifications\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Rules",
+        "body": "Rules let you create custom automation logic for your campaign. Set conditions and actions that override or supplement Trellis's default bidding behavior — for example, pausing keywords that exceed a certain CPA, or applying a bid modifier when a product goes out of stock.",
+        "element_selector": "a[data-rr-ui-event-key=\"rules\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Harvesting Programs",
+        "body": "Harvesting Programs control how Trellis discovers and adds new keywords and ASINs to your campaign. Set the thresholds for when a search term gets harvested, and customize the logic for how newly discovered targets are managed after they're added.",
+        "element_selector": "a[data-rr-ui-event-key=\"harvestingRules\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Weekday Parting",
+        "body": "Weekday Parting lets you set bid multipliers based on the day of the week. If your products consistently perform better on certain days, you can increase or decrease bids accordingly to maximize your return on ad spend.",
+        "element_selector": "a[data-rr-ui-event-key=\"seasonality\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Dayparting",
+        "body": "Dayparting gives you hourly bid multipliers across a 24-hour schedule. Use your campaign's hourly performance data to increase bids during peak-converting hours and reduce them during off-peak times — maximizing efficiency throughout the day.",
+        "element_selector": "a[data-rr-ui-event-key=\"day_parting\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Serving Hours",
+        "body": "Serving Hours lets you restrict when your ads are eligible to run. If you only want ads active during specific windows — for example, during business hours when your team can fulfill orders — you can set those restrictions here.",
+        "element_selector": "a[data-rr-ui-event-key=\"servingHours\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "Scheduled Updates",
+        "body": "Scheduled Updates let you plan future configuration changes in advance. Schedule budget increases for a product launch, ACOS adjustments ahead of a promo period, or strategy switches — all without needing to be online when the change takes effect.",
+        "element_selector": "a[data-rr-ui-event-key=\"scheduledChanges\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
+      },
+      {
+        "title": "History",
+        "body": "The History section is a complete log of every change made to this campaign — by you, your team, or Trellis automatically. Use it to audit changes, understand why performance shifted on a given date, and track who made what modifications.",
+        "element_selector": "a[data-rr-ui-event-key=\"changeLog\"]",
+        "position": "right",
+        "target_url_pattern": "/user/advertising/dashboard/ads/*",
+        "skip_if_element_missing": true
       }
     ]
   },
@@ -91,7 +179,9 @@
   "page_articles": [
     {
       "url_pattern": "/user/dashboard",
-      "article_ids": ["tag-products-for-easier-management"]
+      "article_ids": [
+        "tag-products-for-easier-management"
+      ]
     }
   ],
   "page_guides": [],
@@ -110,6 +200,14 @@
       "url_pattern": "/user/advertising/dashboard/ads/*",
       "navigate_url": null,
       "navigate_hint": "Open any individual ad to start this tour."
+    },
+    {
+      "id": "configuration-tab",
+      "title": "Configuration Tab Tour",
+      "description": "A walkthrough of every section in the Configuration tab — Media Plan, Advanced Options, Notifications, Rules, Harvesting Programs, Dayparting, Serving Hours, Scheduled Updates, and History.",
+      "url_pattern": "/user/advertising/dashboard/ads/*",
+      "navigate_url": null,
+      "navigate_hint": "Open any individual ad and click the Configuration tab to start this tour."
     }
   ]
 }
